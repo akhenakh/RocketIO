@@ -7,7 +7,7 @@
   It's ARC enabled.  
   Not heavily tested but seems to work for my needs, feel free to contribute.  
 
-   * [SocketRocket](https://github.com/square/SocketRocket)
+  You need [SocketRocket](https://github.com/square/SocketRocket) for the websocket.  
 
 ## Usage
 
