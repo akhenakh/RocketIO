@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		5DBDC2601578D264002A147C /* NBTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBDC25E1578D264002A147C /* NBTestViewController.m */; };
 		5DBDC2611578D264002A147C /* NBTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DBDC25F1578D264002A147C /* NBTestViewController.xib */; };
-		5DBDC26D1578E2FE002A147C /* RocketIO.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBDC26C1578E2FE002A147C /* RocketIO.m */; };
+		5DBDC27A1578E716002A147C /* RocketIO.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBDC2791578E716002A147C /* RocketIO.m */; };
 		5DC832981577785E004B17EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DC832971577785D004B17EF /* UIKit.framework */; };
 		5DC8329A1577785E004B17EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DC832991577785E004B17EF /* Foundation.framework */; };
 		5DC8329C1577785E004B17EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DC8329B1577785E004B17EF /* CoreGraphics.framework */; };
@@ -29,8 +29,8 @@
 		5DBDC25D1578D264002A147C /* NBTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBTestViewController.h; sourceTree = "<group>"; };
 		5DBDC25E1578D264002A147C /* NBTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBTestViewController.m; sourceTree = "<group>"; };
 		5DBDC25F1578D264002A147C /* NBTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NBTestViewController.xib; sourceTree = "<group>"; };
-		5DBDC26B1578E2FE002A147C /* RocketIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RocketIO.h; sourceTree = "<group>"; };
-		5DBDC26C1578E2FE002A147C /* RocketIO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RocketIO.m; sourceTree = "<group>"; };
+		5DBDC2781578E716002A147C /* RocketIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RocketIO.h; path = ../../RocketIO/RocketIO.h; sourceTree = "<group>"; };
+		5DBDC2791578E716002A147C /* RocketIO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RocketIO.m; path = ../../RocketIO/RocketIO.m; sourceTree = "<group>"; };
 		5DC832931577785D004B17EF /* NBRocketioDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NBRocketioDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DC832971577785D004B17EF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5DC832991577785E004B17EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -74,6 +74,8 @@
 		5DC832881577785D004B17EF = {
 			isa = PBXGroup;
 			children = (
+				5DBDC2781578E716002A147C /* RocketIO.h */,
+				5DBDC2791578E716002A147C /* RocketIO.m */,
 				5DC8329D1577785E004B17EF /* NBRocketioDemo */,
 				5DC832961577785D004B17EF /* Frameworks */,
 				5DC832941577785D004B17EF /* Products */,
@@ -105,8 +107,6 @@
 		5DC8329D1577785E004B17EF /* NBRocketioDemo */ = {
 			isa = PBXGroup;
 			children = (
-				5DBDC26B1578E2FE002A147C /* RocketIO.h */,
-				5DBDC26C1578E2FE002A147C /* RocketIO.m */,
 				5DC832AE157778F9004B17EF /* External */,
 				5DBDC25D1578D264002A147C /* NBTestViewController.h */,
 				5DBDC25E1578D264002A147C /* NBTestViewController.m */,
@@ -211,7 +211,7 @@
 				5DC832C0157779EF004B17EF /* NSData+SRB64Additions.m in Sources */,
 				5DC832C1157779EF004B17EF /* SRWebSocket.m in Sources */,
 				5DBDC2601578D264002A147C /* NBTestViewController.m in Sources */,
-				5DBDC26D1578E2FE002A147C /* RocketIO.m in Sources */,
+				5DBDC27A1578E716002A147C /* RocketIO.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
