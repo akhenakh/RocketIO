@@ -29,8 +29,8 @@
 		5DBDC25D1578D264002A147C /* NBTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBTestViewController.h; sourceTree = "<group>"; };
 		5DBDC25E1578D264002A147C /* NBTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBTestViewController.m; sourceTree = "<group>"; };
 		5DBDC25F1578D264002A147C /* NBTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NBTestViewController.xib; sourceTree = "<group>"; };
-		5DBDC2781578E716002A147C /* RocketIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RocketIO.h; path = ../../RocketIO/RocketIO.h; sourceTree = "<group>"; };
-		5DBDC2791578E716002A147C /* RocketIO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RocketIO.m; path = ../../RocketIO/RocketIO.m; sourceTree = "<group>"; };
+		5DBDC2781578E716002A147C /* RocketIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RocketIO.h; path = ../RocketIO/RocketIO.h; sourceTree = "<group>"; };
+		5DBDC2791578E716002A147C /* RocketIO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RocketIO.m; path = ../RocketIO/RocketIO.m; sourceTree = "<group>"; };
 		5DC832931577785D004B17EF /* NBRocketioDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NBRocketioDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DC832971577785D004B17EF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5DC832991577785E004B17EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
