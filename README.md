@@ -1,11 +1,11 @@
 # Socket.IO / Objective C Library
 
-  Interface to communicate between Objective C and [Socket.IO](http://socket.io/) 
-  with the help of websockets. It's completly based on [socket.IO-objc](https://raw.github.com/pkyeck/socket.IO-objc)
-  Most dependencies have been removed from the original project.
-  It now uses iOS 5 JSON and iOS 4 Regex, so iOS >= 5 is needed.
-  It's ARC enabled.
-  Not heavily tested but seems to works for my needs, feel free to contribute.
+  Interface to communicate between Objective C and [Socket.IO](http://socket.io/)  
+  with the help of websockets. It's completely based on [socket.IO-objc](https://raw.github.com/pkyeck/socket.IO-objc)  
+  Most dependencies have been removed from the original project.  
+  It now uses iOS 5 JSON and iOS 4 Regex, so iOS >= 5 is needed.  
+  It's ARC enabled.  
+  Not heavily tested but seems to work for my needs, feel free to contribute.  
 
    * [SocketRocket](https://github.com/square/SocketRocket)
 
@@ -43,7 +43,7 @@
 	[dict setObject:@"test1" forKey:@"key1"];
 	[dict setObject:@"test2" forKey:@"key2"];
 	
-	[socketIO sendEvent:@"welcome" withData:dict];
+	[rocketIO sendEvent:@"welcome" withData:dict];
 	
   If you want the server to acknowledge your Message/Event you would also pass a SocketIOCallback block
 	
@@ -51,7 +51,7 @@
 		NSDictionary *response = argsData;
 		// do something with response
 	};
-	[socketIO sendEvent:@"welcomeAck" withData:dict andAcknowledge:cb];
+	[rocketIO sendEvent:@"welcomeAck" withData:dict andAcknowledge:cb];
 	
   All delegate methods are optional - you could implement the following
 
@@ -64,7 +64,7 @@
 
   To process an incoming Message just
 
-    - (void) rocketIO:(SocketIO *)socket didReceiveMessage:(SocketIOPacket *)packet
+    - (void) rocketIO:(RocketIO *)socket didReceiveMessage:(SocketIOPacket *)packet
 	{
 	    NSLog(@"didReceiveMessage() >>> data: %@", packet.data);
 	}
