@@ -74,6 +74,11 @@
   The demo is working great with [Tornadio2 gen example](https://github.com/mrjoes/tornadio2/)
   but should work with any SocketIO compatible server.
   
+  git submodule init  
+  git submodule update
+  
+  For SocketRocket to be fetched.
+  
 ## Next steps
 
   For one, Rooms are not yet supported.
