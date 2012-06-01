@@ -57,14 +57,14 @@
 
     - (void) rocketIODidConnect:(RocketIO *)socket;
 	- (void) rocketIODidDisconnect:(RocketIO *)socket;
-	- (void) rocketIO:(SocketIO *)socket didReceiveMessage:(SocketIOPacket *)packet;
-	- (void) rocketIO:(SocketIO *)socket didReceiveJSON:(SocketIOPacket *)packet;
-	- (void) rocketIO:(SocketIO *)socket didReceiveEvent:(SocketIOPacket *)packet;
-	- (void) rocketIO:(SocketIO *)socket didSendMessage:(SocketIOPacket *)packet;
+	- (void) rocketIO:(RocketIO *)socket didReceiveMessage:(SocketIOPacket *)packet;
+	- (void) rocketIO:(RocketIO *)socket didReceiveJSON:(SocketIOPacket *)packet;
+	- (void) rocketIO:(RocketIO *)socket didReceiveEvent:(SocketIOPacket *)packet;
+	- (void) rocketIO:(RocketIO *)socket didSendMessage:(SocketIOPacket *)packet;
 
   To process an incoming Message just
 
-    - (void) socketIO:(SocketIO *)socket didReceiveMessage:(SocketIOPacket *)packet
+    - (void) rocketIO:(SocketIO *)socket didReceiveMessage:(SocketIOPacket *)packet
 	{
 	    NSLog(@"didReceiveMessage() >>> data: %@", packet.data);
 	}
